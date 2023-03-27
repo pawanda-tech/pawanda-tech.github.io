@@ -1,63 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-body {
-  background-image: url('https://cdn.discordapp.com/attachments/1088111939474956389/1089509199731507281/thilonel_An_electrifying_ultra-realistic_photograph_of_a_cyberp_5fdc7d09-f9f9-4701-a2af-a16a5b5a794c.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+html, body {
+    height: 100%;
 }
 
-.heading {
-  font-family: 'Press Start 2P', sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.subheading {
-  font-family: 'Press Start 2P', sans-serif;
-  font-size: 24px;
-  margin-bottom: 40px;
-  text-align: center;
-  text-transform: uppercase;
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
 }
 
-.button {
-  display: inline-block;
-  background-color: #fff;
-  color: #121212;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  margin-top: 20px;
+.heading {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.button:hover {
-  background-color: #ff5e33;
-  color: #fff;
-  cursor: pointer;
+.subheading {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .note {
-  font-size: 12px;
-  margin-top: 50px;
-  text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-size: cover;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .logo {
+        max-width: 80%;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .subheading {
+        font-size: 1.5rem;
+    }
+
+    .note {
+        font-size: 0.8rem;
+    }
 }
