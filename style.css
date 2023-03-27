@@ -1,15 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   background-image: url('https://cdn.discordapp.com/attachments/1088111939474956389/1089509199731507281/thilonel_An_electrifying_ultra-realistic_photograph_of_a_cyberp_5fdc7d09-f9f9-4701-a2af-a16a5b5a794c.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+.heading {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 .container {
   display: flex;
@@ -17,19 +35,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
-
-.heading {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.subheading {
-  font-size: 24px;
-  margin-bottom: 40px;
-  text-align: center;
 }
 
 .button {
